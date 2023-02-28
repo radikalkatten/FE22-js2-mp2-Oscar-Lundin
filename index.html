@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>Welcome to build-a-wrestler!</h1>
+      <h5>You can choose between 3 different weightclasses: cruiserweight, middleweight and heavyweight.</h5>
+      <h5>Cruiserweights are the most nimble wrestlers. They have less health than the others but have a high relevancy due to their impressive athletic feats. They also lose health and relevancy at a slower rate than the rest.</h5>
+      <h5>Middleweights does not have the most health or the most relevancy but neither are they the worst. They lose health and relevancy faster than cruiserweights but slower than heavyweights</h5>
+      <h5>Heavyweights have the most health, the least relevancy and lose relevancy and health more rapidly than the others.</h5>
+
+      <h5>When you have created your wrestler you can press "heal the wrestler" to give your wrestler 1 more health. You can also press "have a match" to gain 1 relevancy but at the cost of 2 health. Use these skills wisely to keep your wrestler healthy and relevant. When either health or relevancy goes to 0 your wrestler will "die"</h5>
+  
+  </div>
+    <div>
+  
+      <form action="">
+        <label for="name">Wrestlername</label>
+        <input type="text" for="name" id="name" required>
+        <br>
+        <label for="weightclass">choose weightclass</label>
+        <select name="weightclass" id="weightclass">
+          <option value="Cruiserweight">Cruiserweight</option>
+          <option value="Middleweight">Middleweight</option>
+          <option value="Heavyweight">Heavyweight</option>
+        </select>
+        <button id="submitButton">Create a wrestler</button>
+      </form>
+    </div>
+    <div id="dd">
+      <div></div>
+    </div>
+    
+  </div>
+</body>
+</html>
